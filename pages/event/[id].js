@@ -56,7 +56,7 @@ function Event({event}) {
                 Hosted by{" "}
                 <a
                   className="text-indigo-800 truncate hover:underline"
-                  href={{`${process.env.NEXT_PUBLIC_TESTNET_EXPLORER_URL}address/${event.eventOwner}`}
+                  href={`${process.env.NEXT_PUBLIC_TESTNET_EXPLORER_URL}address/${event.eventOwner}`}
                   target="_blank"
                   rel="noreferrer"
                 >
